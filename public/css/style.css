@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    overflow-x: hidden;
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.title-style {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 4vh;
+}
+
+.title {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 4vh;
+    font-family: Helvetica;
+    color: white;
+}
+
+.box-style {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.box {
+    display: flex;
+    margin-top: 4vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 64vw;
+    height: 36vh;
+    border-radius: 2vh;
+    filter: blur(12%);
+}
+
+.about {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: Helvetica;
+    color: black;
+}
+
+.about-paragraph {
+    font-size: 1vh;
+    font-family: Helvetica;
+    color: black;
+}
